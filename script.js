@@ -1,4 +1,3 @@
-// Global variables to store the raw CSV data and the separator
 let csvRawData = '';
 let csvSeparator = '';
 
