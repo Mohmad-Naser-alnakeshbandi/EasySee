@@ -29,11 +29,11 @@ No installation is necessary for the web version. To set up your own local versi
    - Enter a SQL-like query in the filter input box. Example: `Identifier = 9012`.
    - Click "Apply Filter" to refine the displayed data according to your query.
 
-   ![Applying a Filter](Images/Apply filter.png)
+   ![Applying a Filter](Images/Applyfilter.png)
 
    Filters can include logical operators like `AND`, `OR`, `NOT`, and inequality `!=`.
 
-   ![Applying Complex Filter](Images/Apply filter 2.png)
+   ![Applying Complex Filter](Images/Applyfilter2.png)
 
 3. **Initial View:**
    - When you first open EasySee, it will prompt you to load a CSV file.
