@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasySee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>EasySee - CSV Viewer</h1>
+    <div id="inputContainer">
+        <input type="file" id="csvFileInput" accept=".csv">
+        <input type="text" id="separatorInput" placeholder="Enter separator, e.g., ','">
+        <button onclick="loadCSV()">Load CSV</button>
+    </div>    
+    <div id="queryContainer">
+        <input type="text" id="sqlQueryInput" placeholder="Enter a filter like e.g., 'age > 25'">
+        <button onclick="applyQuery()" id="queryButton">Apply Filter</button>
+    </div>
+    <table id="csvTable"></table>
+    <script src="script.js"></script>
+</body>
+</html>
