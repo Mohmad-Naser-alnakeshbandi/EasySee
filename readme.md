@@ -49,8 +49,4 @@ Here are some example queries you can apply:
 - `NOT Department = Engineering`: Show rows where the department is not Engineering.
 - `Identifier != 4081 AND Location = Manchester`: Show rows where the identifier is not 4081, and the location is Manchester.
 
-## License
 
-EasySee is open-source software licensed under the [MIT license](LICENSE).
-
----
